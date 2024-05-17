@@ -1,0 +1,25 @@
+{
+  "name": "@abdulrahmanazam/student-management-system",
+  "version": "1.0.2",
+  "description": "This is CLI based Student management system",
+  "main": "main.js",
+  "type": "module",
+  "bin": {
+    "student-management-system": "main.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.21"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
